@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>correción evaluación intermedia módulo 2</title>
+  </head>
+  <body>
+    <main class="main">
+      <h1>dados y apuestas</h1>
+      <h3>introduce aquí tu jugada:</h3>
+      <form action="">
+        <select
+          class="js-select"
+          name=""
+          id=""
+          placeholder="Qué número apuestas del 1 al 6"
+        >
+          <option value="select">Qué número apuestas del 1 al 6</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+
+        <input
+          type="text"
+          class="js-bets"
+          name="bets"
+          id="bets"
+          placeholder="¿cuanto apuestas?"
+        />
+        <button class="js-btn">jugar</button>
+      </form>
+
+      <input type="number" placeholder="resultado" />
+
+      <div>
+        <h2 class="js-result">vamos a jugar</h2>
+      </div>
+
+      <div>
+        <p>saldo: 50</p>
+      </div>
+
+      <div>
+        <p class="winer"></p>
+      </div>
+
+      <!--<span class="winer js-winer">Has ganado el doble de lo apostado</span>
+      <span class="loser js-loser">Has perdido lo apostado</span>-->
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
